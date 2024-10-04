@@ -1,7 +1,7 @@
 #        Ҝ乇尺爪 爪ᗪ ᐯ2
 
    <a>
-                                      <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=30&pause=1000&color=F71515&width=435&lines=BOT+100%25+CAMEROUNAIS%E2%84%A2%EF%B8%8F" alt="Typing SVG" /></a>   
+                                      <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=30&pause=1000&color=F71515&width=435&lines=BOT+100%25+CAMEROUNAIS" alt="Typing SVG" /></a>   
             
 <p align="center"> 
 <up A simple WhatsApp User Bot Coded By Rayan and Giffareno</u>
@@ -18,6 +18,12 @@
 <p align="center">
 <a href="https://github.com/Kgtech-cmr"><img title="Author" src="https://img.shields.io/badge/KGTECH-black?style=for-the-badge&logo=Github"></a> <a href="https://chat.whatsapp.com/FpxvVBFOozA6IhNxIWhwFw"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/237656520674"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp">
 <p/>
+
+ <p align="center">
+  <a href="https://kg-site-support.vercel.app/">
+    <img src="https://img.shields.io/badge/KG WEBSITE-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Generate Session ID"/>
+  </a>
+   
 <p align="center">
 <a href="https://github.com/Kgtech-cmr/KERM_MD-V2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Kgtech-cmr/KERM_MD-V2?color=white&style=flat-square"></a>
 <a href="https://github.com/Kgtech-cmr/KERM_MD-V2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kgtech-cmr/KERM_MD-V2?color=yellow&style=flat-square"></a>
@@ -55,7 +61,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 */24 * * *'  # Relance toutes les 6 heures
+    - cron: '0 */6 * * *'  # Relance toutes les 6 heures
 
 jobs:
   build:
@@ -64,7 +70,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.18.0]
+        node-version: [20.x]
 
     steps:
     - name: Checkout repository
@@ -83,7 +89,7 @@ jobs:
 
     - name: Start application with timeout
       run: |
-        timeout 50590s npm start  # Limite l'exécution à 5h 59m 50s
+        timeout 21590s npm start  # Limite l'exécution à 5h 59m 50s
 
     - name: Save state (Optional)
       run: |
@@ -138,7 +144,6 @@ jobs:
 
 <br>
 
-* [`TOGE SASAKI`](https://github.com/toge012345)
 * [`ARTHUR SASAKI`](https://github.com/Alp24ni)
 * ## Contact Dev of KERM🤪
 * [`RAYAN`](https://wa.me/237656520674?text=Hi+Bro+Rayan+Big+Fan😍)
